@@ -676,3 +676,6 @@ a.family-item:hover { transform: translateY(-3px); }
   .head--center { text-align: left; }
   .head--center p { margin-inline: 0; }
 }
+
+/* Hero: tweede regel iets kleiner */
+.hero .h1 .line:nth-child(2) { font-size: .72em; margin-top: .08em; }
