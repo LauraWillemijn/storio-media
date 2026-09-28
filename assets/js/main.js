@@ -288,3 +288,20 @@
   }
   function escapeHtml(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 })();
+
+/* Werkwijze-tijdlijn: lijn loopt mee met scrollen */
+(function () {
+  var tl = document.querySelector('.timeline');
+  if (!tl) return;
+  var steps = tl.querySelectorAll('.tl-step'), ticking = false;
+  function update() {
+    ticking = false;
+    var r = tl.getBoundingClientRect(), vh = window.innerHeight;
+    var p = Math.min(1, Math.max(0, (vh * 0.75 - r.top) / (r.height * 0.9)));
+    tl.style.setProperty('--p', p.toFixed(3));
+    steps.forEach(function (s, i) { s.classList.toggle('is-on', p >= (steps.length > 1 ? i / (steps.length - 1) : 0) - 0.02); });
+  }
+  window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();

@@ -648,3 +648,31 @@ a.family-item:hover { transform: translateY(-3px); }
 .case-badge { padding: 6px 12px; }
 .flow--2 { grid-template-columns: 1fr 1fr; row-gap: 32px; }
 .flow--2::before { display: none; }
+
+/* ── Werkwijze-tijdlijn ─────────────────────────── */
+.head--center { text-align: center; margin-inline: auto; max-width: 640px; }
+.head--center p { margin-inline: auto; }
+.timeline { position: relative; margin-top: clamp(40px, 5vw, 64px); --p: 0; }
+.tl-track { position: absolute; left: calc(100% / var(--n) / 2); right: calc(100% / var(--n) / 2); top: 32px; height: 2px; background: var(--line); border-radius: 2px; overflow: hidden; }
+.tl-fill { position: absolute; inset: 0; background: linear-gradient(90deg, var(--blue), var(--green)); transform-origin: left; transform: scaleX(var(--p)); transition: transform .2s linear; }
+.tl-steps { list-style: none; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 20px; position: relative; }
+.tl-step { text-align: center; padding: 0 4px; }
+.tl-dot { width: 64px; height: 64px; margin: 0 auto 22px; border-radius: 50%; display: grid; place-items: center; background: var(--white); border: 1.5px solid var(--line); box-shadow: 0 10px 30px -14px rgba(16, 25, 38, .3); color: var(--navy); transition: background .5s var(--ease), color .5s var(--ease), border-color .5s var(--ease), transform .5s var(--ease); }
+.tl-dot svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.tl-step.is-on .tl-dot { background: var(--navy); border-color: var(--navy); color: #fff; transform: scale(1.04); }
+.tl-step.is-hl.is-on .tl-dot { background: var(--green); border-color: var(--green); box-shadow: 0 0 0 8px rgba(46, 158, 96, .14); }
+.tl-step small { display: block; font-size: 12px; font-weight: 600; letter-spacing: .5px; color: var(--muted); margin-bottom: 6px; }
+.tl-step.is-hl small { color: var(--green); }
+.tl-step h3 { font-size: 18px; font-weight: 700; line-height: 1.25; margin-bottom: 8px; }
+.tl-step p { font-size: 15px; line-height: 1.55; color: var(--muted); }
+.tl-cta { text-align: center; margin-top: clamp(40px, 5vw, 60px); }
+@media (max-width: 900px) {
+  .tl-track { left: 31px; right: auto; top: 32px; bottom: 32px; width: 2px; height: auto; }
+  .tl-fill { transform-origin: top; transform: scaleY(var(--p)); background: linear-gradient(180deg, var(--blue), var(--green)); }
+  .tl-steps { grid-template-columns: 1fr; gap: 28px; }
+  .tl-step { display: grid; grid-template-columns: 64px 1fr; column-gap: 20px; text-align: left; padding: 0; }
+  .tl-dot { margin: 0; grid-row: 1 / span 3; }
+  .tl-step small { margin-top: 6px; }
+  .head--center { text-align: left; }
+  .head--center p { margin-inline: 0; }
+}
