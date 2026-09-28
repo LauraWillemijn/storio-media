@@ -650,7 +650,7 @@ a.family-item:hover { transform: translateY(-3px); }
 .flow--2::before { display: none; }
 
 /* ── Werkwijze-tijdlijn ─────────────────────────── */
-.head--center { text-align: center; margin-inline: auto; max-width: 640px; }
+.head--center { flex-direction: column; align-items: center; justify-content: center; gap: 18px; text-align: center; margin-inline: auto; max-width: 720px; }
 .head--center p { margin-inline: auto; }
 .timeline { position: relative; margin-top: clamp(40px, 5vw, 64px); --p: 0; }
 .tl-track { position: absolute; left: calc(100% / var(--n) / 2); right: calc(100% / var(--n) / 2); top: 32px; height: 2px; background: var(--line); border-radius: 2px; overflow: hidden; }
@@ -673,8 +673,6 @@ a.family-item:hover { transform: translateY(-3px); }
   .tl-step { display: grid; grid-template-columns: 64px 1fr; column-gap: 20px; text-align: left; padding: 0; }
   .tl-dot { margin: 0; grid-row: 1 / span 3; }
   .tl-step small { margin-top: 6px; }
-  .head--center { text-align: left; }
-  .head--center p { margin-inline: 0; }
 }
 
 /* Hero: tweede regel iets kleiner */
