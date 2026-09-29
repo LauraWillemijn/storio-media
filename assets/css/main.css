@@ -710,3 +710,8 @@ a.family-item:hover { transform: translateY(-3px); }
 .hero-price:hover .arr { transform: translateX(3px); }
 .js .hero-price { opacity: 0; animation: fadeUp 1s var(--ease) forwards; }
 @media (max-width: 760px) { .hero-price { font-size: 14px; margin-bottom: 20px; } }
+
+/* Bevestiging na versturen */
+.form-toast { position: fixed; left: 50%; bottom: 28px; z-index: 9999; display: flex; align-items: center; gap: 14px; max-width: calc(100% - 32px); padding: 16px 22px; border-radius: 16px; background: var(--navy); color: #fff; font-size: 15px; line-height: 1.45; box-shadow: 0 20px 50px rgba(16, 25, 38, .35); opacity: 0; transform: translate(-50%, 20px); transition: opacity .4s ease, transform .5s var(--ease); }
+.form-toast.show { opacity: 1; transform: translate(-50%, 0); }
+.form-toast .ic { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--green); display: grid; place-items: center; font-weight: 700; }

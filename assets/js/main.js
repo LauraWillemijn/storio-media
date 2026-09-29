@@ -276,9 +276,14 @@
           if (cfg.template_confirm) return ejs.send(cfg.service_id, cfg.template_confirm, data).catch(function () {});
         });
       }).then(function () {
-        form.innerHTML = '<div class="form-success" role="status"><div class="check">✓</div><h3>Dank je, ' +
-          escapeHtml(data.naam) + '.</h3><p>We hebben je idee ontvangen en nemen snel contact met je op via <strong>' +
-          escapeHtml(data.email) + '</strong>.</p></div>';
+        form.innerHTML = '<div class="form-success" role="status"><div class="check">✓</div><h3>Bedankt voor je bericht!</h3>' +
+          '<p>We nemen binnen één werkdag contact met je op.</p></div>';
+        form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        var toast = document.createElement('div'); toast.className = 'form-toast'; toast.setAttribute('role', 'status');
+        toast.innerHTML = '<span class="ic">✓</span><span><strong>Bedankt voor je bericht!</strong><br>We nemen binnen één werkdag contact met je op.</span>';
+        document.body.appendChild(toast);
+        requestAnimationFrame(function () { toast.classList.add('show'); });
+        setTimeout(function () { toast.classList.remove('show'); setTimeout(function () { toast.remove(); }, 500); }, 6000);
       }).catch(function (err) {
         console.error('Versturen mislukt', err);
         btn.disabled = false; btn.innerHTML = label;
