@@ -726,3 +726,6 @@ a.family-item:hover { transform: translateY(-3px); }
 .split--services .service-n { padding-top: 4px; color: var(--green); }
 .split--services .service-row::before { display: none; }
 @media (max-width: 900px) { .split--services { grid-template-columns: 1fr; } }
+
+/* Mobiel: geen bumper bij Dit is wat we doen */
+@media (max-width: 900px) { #diensten .vcard { display: none; } }
