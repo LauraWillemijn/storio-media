@@ -268,7 +268,7 @@
       var data = {
         naam: val('naam'), email: val('email'), telefoon: val('telefoon'), bedrijf: val('bedrijf'),
         dienst: 'Storio Media · ' + val('soort'),
-        bericht: val('bericht') + '\n\nIndicatie budget: ' + val('budget') + '\n(Verstuurd via storiomedia.nl)'
+        bericht: val('bericht') + '\n\n(Verstuurd via storiomedia.nl)'
       };
       btn.disabled = true; btn.textContent = 'Versturen…';
       loadEmailJS().then(function (ejs) {
