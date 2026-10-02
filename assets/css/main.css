@@ -766,3 +766,12 @@ a.family-item:hover { transform: translateY(-3px); }
 .services-links a { display: inline-block; padding: 8px 14px; border-radius: 100px; border: 1px solid var(--line-inv); color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; transition: background .25s, border-color .25s; }
 .services-links a:hover { background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .35); }
 @media (max-width: 560px) { .seo-prices { grid-template-columns: 1fr; } .seo-steps li { grid-template-columns: 44px 1fr; } .seo-step-n { width: 40px; height: 40px; } }
+
+/* Kort antwoord + auteur/datum (voor Google en AI-antwoorden) */
+.seo-byline { font-size: 14px; color: var(--muted); margin-bottom: 22px; }
+.seo-byline a { color: var(--text); font-weight: 600; }
+.seo-tldr { border-left: 4px solid var(--green); background: var(--gray); border-radius: 0 var(--r) var(--r) 0; padding: 20px 24px; margin-bottom: clamp(36px, 5vw, 56px); }
+.seo-tldr b { display: block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+.seo-tldr p { font-size: 17px; line-height: 1.7; margin: 0; color: var(--text); }
+.founder-more { margin-top: 14px; }
+.founder-more a { font-weight: 600; color: var(--text); text-decoration: none; border-bottom: 1.5px solid var(--green); padding-bottom: 2px; }
