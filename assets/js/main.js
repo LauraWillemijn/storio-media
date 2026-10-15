@@ -196,7 +196,7 @@
   function stopInline(except) {
     document.querySelectorAll('.media.is-inline').forEach(function (m) {
       if (m === except) return;
-      var f = m.querySelector('iframe'); if (f) f.remove();
+      var f = m.querySelector('iframe, video.inline-mp4'); if (f) f.remove();
       m.classList.remove('is-inline');
     });
   }
@@ -215,6 +215,20 @@
     f.title = m.getAttribute('aria-label') || 'Video';
     m.appendChild(f);
     m.classList.add('is-inline');
+  });
+
+  /* eigen mp4 ter plekke in de kaart afspelen */
+  document.addEventListener('click', function (e) {
+    var m = e.target.closest('[data-inline-mp4]');
+    if (!m || m.classList.contains('is-inline')) return;
+    e.preventDefault();
+    stopInline(m);
+    autoVideos.forEach(function (v) { v.pause(); });
+    ytFrames.forEach(function (f) { ytCommand(f, 'pauseVideo'); });
+    var v = document.createElement('video');
+    v.className = 'inline-mp4'; v.src = m.getAttribute('data-inline-mp4'); v.controls = true; v.autoplay = true; v.playsInline = true; v.preload = 'auto';
+    m.appendChild(v); m.classList.add('is-inline');
+    var p = v.play(); if (p && p.catch) p.catch(function () {});
   });
 
   /* ── FAQ-accordeon ─────────────────────────────────────────────────────── */

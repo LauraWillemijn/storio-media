@@ -642,7 +642,7 @@ a.family-item:hover { transform: translateY(-3px); }
 .case-card:hover .play-dot svg { fill: #fff; }
 .case-card .media.is-inline { cursor: default; }
 .case-card .media.is-inline .play, .case-card .media.is-inline .case-badge { opacity: 0; pointer-events: none; }
-.case-card .media iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; z-index: 3; background: #000; }
+.case-card .media iframe, .case-card .media video.inline-mp4 { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; z-index: 3; background: #000; }
 .case-card:hover { transform: none; }
 .case-body p { margin-top: 2px; }
 .case-badge { padding: 6px 12px; }
