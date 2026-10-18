@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Weerupdates in één minuut · een idee voor LVNL · Hielke Boersma</title>
-<meta name="description" content="Een herbruikbaar videotemplate voor weerupdates: een idee van Hielke Boersma, uitgewerkt bij zijn sollicitatie bij LVNL.">
+<title>Zo beïnvloedt het weer de luchtvaart · een idee voor LVNL · Hielke Boersma</title>
+<meta name="description" content="Een korte uitlegvideo over wind, mist en onweer en hun invloed op vliegverkeer: een idee van Hielke Boersma voor LVNL.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,41 +12,33 @@
 <style>
   :root { --navy:#1E3C82; --navy-deep:#0A1A40; --ice:#EBF2F7; --text:#333333; --muted:#5C6878; --orange:#F05A23; --line:#D9E3EE; }
   * { box-sizing:border-box; margin:0; padding:0; }
-  html { scroll-behavior:smooth; }
   body { font-family:"Open Sans", system-ui, sans-serif; color:var(--text); background:#fff; line-height:1.6; -webkit-font-smoothing:antialiased; }
   .wrap { max-width:1120px; margin:0 auto; padding:0 24px; }
   h1, h2, h3 { font-family:"Rubik", system-ui, sans-serif; color:var(--navy); line-height:1.15; }
 
-  /* hero */
-  .hero { padding:96px 0 56px; }
+  /* hero met video */
+  .hero { padding:88px 0 80px; }
+  .hero-grid { display:grid; grid-template-columns:minmax(0, 1fr) 380px; gap:72px; align-items:center; }
   .eyebrow { display:inline-flex; align-items:center; gap:10px; font:600 13px/1 "Open Sans", sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
   .eyebrow::before { content:""; width:8px; height:8px; border-radius:50%; background:var(--orange); }
-  .hero h1 { margin-top:22px; font-size:clamp(40px, 6vw, 68px); font-weight:700; letter-spacing:-.02em; max-width:14ch; }
+  .hero h1 { margin-top:22px; font-size:clamp(38px, 5.4vw, 64px); font-weight:700; letter-spacing:-.02em; }
   .rule { width:64px; height:4px; border-radius:2px; background:var(--orange); margin:28px 0; }
-  .lead { font-size:clamp(18px, 2vw, 21px); max-width:62ch; color:var(--text); }
-
-  /* video's */
-  .reel { background:var(--ice); padding:72px 0; }
-  .phones { display:grid; grid-template-columns:repeat(3, 1fr); gap:32px; }
-  .phone { display:flex; flex-direction:column; gap:16px; }
-  .screen { position:relative; aspect-ratio:9/16; border-radius:28px; overflow:hidden; background:var(--navy-deep); box-shadow:0 1px 0 rgba(10,26,64,.04), 0 24px 48px -24px rgba(10,26,64,.35); }
+  .lead { font-size:clamp(18px, 2vw, 20px); max-width:52ch; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:28px; }
+  .meta span { font-size:13px; padding:5px 12px; border-radius:100px; background:var(--ice); color:var(--navy); }
+  .screen { position:relative; aspect-ratio:9/16; border-radius:28px; overflow:hidden; background:var(--navy-deep); box-shadow:0 1px 0 rgba(10,26,64,.04), 0 28px 56px -28px rgba(10,26,64,.45); }
   .screen video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
-  .phone h3 { font-size:19px; font-weight:500; }
-  .phone p { font-size:15px; color:var(--muted); }
 
-  /* tekstblokken */
+  /* blokken */
   section.block { padding:88px 0; }
+  section.tint { background:var(--ice); }
   .block h2 { font-size:clamp(28px, 3.4vw, 40px); font-weight:700; letter-spacing:-.01em; }
-  .steps { display:grid; grid-template-columns:repeat(3, 1fr); gap:40px; margin-top:48px; }
-  .step { border-top:1px solid var(--line); padding-top:22px; }
-  .step .n { font:700 14px "Rubik", sans-serif; color:var(--orange); letter-spacing:.06em; }
-  .step h3 { font-size:21px; font-weight:500; margin:10px 0 8px; }
-  .step p { font-size:16px; color:var(--muted); }
-  .fields { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
-  .fields span { font-size:13px; padding:5px 12px; border-radius:100px; background:var(--ice); color:var(--navy); }
-  .divider { height:1px; background:var(--line); }
+  .cols { display:grid; grid-template-columns:repeat(3, 1fr); gap:40px; margin-top:44px; }
+  .col { border-top:1px solid var(--line); padding-top:22px; }
+  section.tint .col { border-color:#cfdbe7; }
+  .col h3 { font-size:21px; font-weight:500; margin-bottom:8px; }
+  .col p { font-size:16px; color:var(--muted); }
 
-  /* footer */
   footer { padding:56px 0 64px; border-top:1px solid var(--line); }
   .foot { display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; align-items:flex-end; }
   .foot strong { font-family:"Rubik", sans-serif; font-weight:500; color:var(--navy); font-size:19px; display:block; }
@@ -54,87 +46,63 @@
   .foot a:hover { border-color:var(--navy); }
   .disclaimer { font-size:13px; color:var(--muted); max-width:52ch; }
 
-  @media (max-width: 860px) {
-    .hero { padding:64px 0 40px; }
-    .phones { grid-template-columns:1fr; max-width:360px; margin:0 auto; gap:48px; }
-    .steps { grid-template-columns:1fr; gap:28px; }
+  @media (max-width: 900px) {
+    .hero { padding:56px 0 64px; }
+    .hero-grid { grid-template-columns:1fr; gap:44px; }
+    .screen { max-width:360px; width:100%; margin:0 auto; }
+    .cols { grid-template-columns:1fr; gap:28px; }
     section.block { padding:64px 0; }
   }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
 </style>
 </head>
 <body>
 
 <header class="hero">
-  <div class="wrap">
-    <span class="eyebrow">Een idee voor LVNL · Hielke Boersma</span>
-    <h1>Weerupdates in één minuut.</h1>
-    <div class="rule"></div>
-    <p class="lead">Een herbruikbaar videotemplate voor dagen met storm, mist of onweer. Het communicatieteam vult vijf velden in en heeft binnen een minuut een heldere, consistente story voor social media en de website.</p>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Een idee voor LVNL · Hielke Boersma</span>
+      <h1>Zo beïnvloedt het weer de luchtvaart.</h1>
+      <div class="rule"></div>
+      <p class="lead">Een korte uitlegvideo voor social media en de website. In 38 seconden maakt de video duidelijk waarom wind, mist en onweer leiden tot minder vluchten, in begrijpelijke taal en in de stijl van LVNL.</p>
+      <div class="meta"><span>38 seconden</span><span>Verticaal 9:16</span><span>Instagram, LinkedIn en website</span></div>
+    </div>
+    <div class="screen"><video src="media/weer-en-vliegen.mp4" poster="media/weer-en-vliegen.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Uitlegvideo: zo beïnvloedt het weer de luchtvaart"></video></div>
   </div>
 </header>
 
-<section class="reel" aria-label="Voorbeelden">
+<section class="block tint">
   <div class="wrap">
-    <div class="phones">
-      <figure class="phone">
-        <div class="screen"><video src="media/weerupdate-wind.mp4" poster="media/weerupdate-wind.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Voorbeeld weerupdate harde wind"></video></div>
+    <h2>Wat de video uitlegt</h2>
+    <div class="cols">
+      <div class="col">
         <h3>Harde wind</h3>
-        <p>Minder bruikbare banen, dus minder landingen per uur.</p>
-      </figure>
-      <figure class="phone">
-        <div class="screen"><video src="media/weerupdate-mist.mp4" poster="media/weerupdate-mist.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Voorbeeld weerupdate mist"></video></div>
+        <p>Vliegtuigen landen en vertrekken het liefst tegen de wind in. Bij te veel zijwind kan een baan niet veilig worden gebruikt, en minder banen betekent minder vliegtuigen per uur.</p>
+      </div>
+      <div class="col">
         <h3>Mist</h3>
-        <p>Meer afstand tussen vliegtuigen: veiliger, maar minder capaciteit.</p>
-      </figure>
-      <figure class="phone">
-        <div class="screen"><video src="media/weerupdate-onweer.mp4" poster="media/weerupdate-onweer.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Voorbeeld weerupdate onweer"></video></div>
+        <p>Bij slecht zicht houden vliegtuigen meer afstand van elkaar en landen piloten met hulp van instrumenten. Dat is veiliger, maar er kunnen minder vliegtuigen per uur landen.</p>
+      </div>
+      <div class="col">
         <h3>Onweer</h3>
-        <p>Vliegtuigen worden om buien heen geleid; tijdelijk minder vluchten.</p>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <div class="wrap">
-    <h2>Zo werkt het</h2>
-    <div class="steps">
-      <div class="step">
-        <div class="n">01</div>
-        <h3>Invullen</h3>
-        <p>Vijf velden, verder niets. Het ontwerp, de huisstijl en de timing liggen vast.</p>
-        <div class="fields"><span>Weertype</span><span>Datum</span><span>Kop</span><span>Uitleg</span><span>Advies</span></div>
-      </div>
-      <div class="step">
-        <div class="n">02</div>
-        <h3>Renderen</h3>
-        <p>Eén klik levert een verticale video van 11 seconden op, klaar voor Instagram, LinkedIn en de website.</p>
-      </div>
-      <div class="step">
-        <div class="n">03</div>
-        <h3>Publiceren</h3>
-        <p>Op een drukke dag staat de uitleg online voordat de vragen binnenkomen. Elke keer in dezelfde, herkenbare vorm.</p>
+        <p>De verkeersleiding leidt vliegtuigen om de buien heen, en op de grond ligt het werk soms even stil vanwege bliksemgevaar. Daardoor vertrekken en landen er tijdelijk minder vluchten.</p>
       </div>
     </div>
   </div>
 </section>
-
-<div class="wrap"><div class="divider"></div></div>
 
 <section class="block">
   <div class="wrap">
     <h2>Waarom dit werkt</h2>
-    <div class="steps">
-      <div class="step">
-        <h3>Snel wanneer het telt</h3>
-        <p>Bij storm, mist of onweer is tijd schaars. Het template haalt het maakwerk weg, zodat het team zich op de boodschap kan richten.</p>
+    <div class="cols">
+      <div class="col">
+        <h3>Complex wordt helder</h3>
+        <p>Korte zinnen op B1-niveau, één weertype per hoofdstuk en een duidelijke opbouw. Ook zonder geluid te volgen.</p>
       </div>
-      <div class="step">
-        <h3>Altijd in huisstijl</h3>
-        <p>Kleur, typografie en logo zitten in het ontwerp. Iedere update ziet er hetzelfde uit, ongeacht wie de video maakt.</p>
+      <div class="col">
+        <h3>Herbruikbare vorm</h3>
+        <p>Dezelfde opbouw werkt voor andere vragen die LVNL vaak krijgt, zoals baangebruik of nachtvluchten. Elke nieuwe video is snel gemaakt en direct herkenbaar.</p>
       </div>
-      <div class="step">
+      <div class="col">
         <h3>AI als hulpmiddel</h3>
         <p>De beelden zijn met AI gemaakt; de tekst, de feiten en de keuze wat er online gaat blijven bij het team.</p>
       </div>
