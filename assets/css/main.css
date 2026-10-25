@@ -565,7 +565,7 @@ a.family-item:hover { transform: translateY(-3px); }
 .hero .pill { margin-bottom: 18px; }
 .hero .h1 { font-size: clamp(34px, 4.8vw, 70px); margin-bottom: 16px; }
 .hero-sub { margin-bottom: 24px; }
-.reel { margin-top: clamp(28px, 3.5vw, 44px); }
+.reel { margin-top: clamp(28px, 3.5vw, 44px); max-width: 1040px; }
 .hero::after { height: clamp(140px, 26vw, 360px); }
 
 /* YouTube-showreel als stille achtergrond (tijdelijk, tot er een eigen loop is) */
