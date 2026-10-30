@@ -1,6 +1,6 @@
 # Storio Media
 
-> Storio Media is een Nederlands creatief videoproductiebedrijf dat hoogwaardige AI-video's maakt voor bedrijven, merken en organisaties. AI is de productiemethode: van concept en script tot AI-generatie, voice-over, sound design en montage — zonder traditionele draaidagen, crews of locatiebeperkingen.
+> Storio Media is een Nederlands creatief videoproductiebedrijf dat hoogwaardige AI-video's maakt voor bedrijven, merken en organisaties. AI is de productiemethode: van concept en script tot AI-generatie, voice-over, sound design en montage — zonder traditionele draaidagen, crews of locatiebeperkingen. Elke video is binnen een week klaar, van briefing tot eindfilm.
 
 Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), opgericht door Hielke Boersma (radio-dj bij SLAM!, presentator en voice-over; https://hielkeboersma.com). Contact: info@storiomedia.nl.
 
@@ -14,7 +14,7 @@ Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), 
 ## Prijzen
 - AI-video van 30 seconden: € 600 excl. btw
 - AI-video van 1 minuut: € 1.000 excl. btw
-- Inbegrepen: Concept & script, AI-beelden in één consistente stijl, Voice-over, muziek & sound design, Montage & oplevering. Langere video of meerdere versies? Je krijgt een voorstel op maat.
+- Inbegrepen: Concept & script, AI-beelden in één consistente stijl, Voice-over, muziek & sound design, Montage & oplevering, Binnen een week klaar. Langere video of meerdere versies? Je krijgt een voorstel op maat.
 
 ## Cases
 - VOLTA (Explainer, 0:30): Een explainer van 30 seconden voor VOLTA, een thuisbatterij die je zonnestroom bewaart voor 's avonds. In één doorlopende 3D-doorsnede van een Nederlands rijtjeshuis zie je de dag overgaan in de avond: overdag vullen de zonnepanelen de batterij, 's avonds gaat die stroom naar de keuken, de tv en de auto. Dag en nacht zonnestroom. Video: https://youtu.be/qscBy7h0au4
@@ -25,7 +25,7 @@ Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), 
 ## Veelgestelde vragen
 - Wat is een AI-video? Een AI-video is een video waarvan de beelden, en vaak ook de stem en muziek, met generatieve AI worden gemaakt. Bij Storio Media combineren we die techniek met vakmanschap: we schrijven het concept en script, bepalen de beeldstijl, maken de scènes en monteren alles tot een professionele bedrijfsfilm, commercial of explainer.
 - Wat kost een AI-video laten maken? Een video van 30 seconden kost € 600 en een video van 1 minuut € 1.000 (excl. btw). Daarin zit alles: concept en script, de AI-beelden, voice-over, muziek en montage. Wil je een langere video of meerdere versies? Dan krijg je een voorstel op maat.
-- Hoe lang duurt het om een AI-video te maken? Een gemiddelde productie van briefing tot eindfilm duurt meestal twee tot vier weken. Heb je een deadline? Laat het ons weten, dan plannen we het proces daarop.
+- Hoe lang duurt het om een AI-video te maken? Binnen een week, van briefing tot eindfilm. Zo weet je vooraf precies wanneer je video klaar is.
 - Kunnen bestaande beelden worden gecombineerd met AI? Ja. Bestaand videomateriaal, productfoto's, je huisstijl, logo's en screenshots van software kunnen we verwerken in de productie. Denk aan echte interviews aangevuld met AI-scènes, of een bestaand product dat in een nieuwe omgeving wordt geplaatst. Zo blijft de video herkenbaar van jou.
 - Kunnen video's in meerdere talen worden gemaakt? Ja, en dat is een van de grote voordelen van AI-videoproductie. Van één productie maken we eenvoudig versies in het Engels, Duits, Frans of andere talen, inclusief vertaalde voice-over, ondertiteling en aangepaste teksten in beeld. Ideaal voor internationale organisaties die één boodschap in meerdere markten willen brengen.
 - Is AI-video geschikt voor mijn bedrijf? AI-video werkt vooral goed als je iets wilt laten zien dat lastig, duur of onmogelijk te filmen is: internationale locaties, toekomstscenario's, complexe processen of producten die nog niet af zijn. Ook als je regelmatig nieuwe videocontent nodig hebt, is het interessant. Voor een eerlijk portret van je team of een klantinterview is een camera soms juist beter. In een kennismaking vertellen we je graag wat bij jouw idee past.
@@ -51,7 +51,7 @@ Zo kun je locaties, situaties en werelden laten zien die met een camera duur, la
 Elke productie is een complete video, klaar om te delen. Daarin zitten het concept en script, de AI-beelden in één consistente stijl, voice-over, muziek en sound design, montage en de oplevering in de formaten die je nodig hebt.
 
 ## Hoe lang duurt het?
-Een gemiddelde productie duurt van briefing tot eindfilm twee tot vier weken. Heb je een deadline? Dan plannen we het proces daarop.
+Je video is binnen een week klaar, van briefing tot eindfilm. Heb je een deadline? Dan plannen we het proces daarop.
 
 **Wat kost een AI-video laten maken?** Een AI-video van 30 seconden kost € 600 en een video van 1 minuut € 1.000, exclusief btw. Concept, script, AI-beelden, voice-over, muziek en montage zitten erin. Voor langere video's of meerdere versies krijg je een voorstel op maat.
 **Is een AI-video geschikt voor mijn bedrijf?** AI-video werkt vooral goed als je iets wilt laten zien dat lastig, duur of onmogelijk te filmen is, of als je regelmatig nieuwe videocontent nodig hebt. In een kennismaking bespreken we wat bij jouw idee past.
@@ -94,7 +94,7 @@ Een goede bedrijfsfilm begint bij het verhaal. We vertalen je missie, je product
 ## Combineren met bestaand materiaal
 Heb je al beeld, productfoto's of interviews? Die verwerken we in de film. Zo combineer je het beste van echt en AI, en blijft de film herkenbaar van jou.
 
-**Hoe lang duurt het maken van een bedrijfsfilm?** Meestal twee tot vier weken van briefing tot eindfilm, afhankelijk van de lengte en het aantal feedbackrondes.
+**Hoe lang duurt het maken van een bedrijfsfilm?** Binnen een week, van briefing tot eindfilm.
 **Kan de bedrijfsfilm in meerdere talen?** Ja. Van één productie maken we eenvoudig versies in andere talen, met vertaalde voice-over, ondertiteling en teksten in beeld.
 
 # Explainer of animatievideo laten maken
@@ -179,7 +179,7 @@ In een kennismaking bespreken we wie je zoekt en wat jullie onderscheidt als wer
 
 **Wat kost een wervingsvideo?** Een wervingsvideo van 30 seconden kost € 600 exclusief btw, een video van 1 minuut € 1.000. Voor een reeks video's voor meerdere functies maken we een voorstel op maat.
 **Kunnen echte medewerkers in de video?** De beelden maken we met AI. Wil je echte medewerkers aan het woord laten, dan combineren we dat met een stem of citaat van je team, of met opnames die je zelf aanlevert.
-**Hoe snel is een wervingsvideo klaar?** Omdat er geen draaidag nodig is, is een video meestal binnen enkele dagen tot twee weken klaar, afhankelijk van de feedbackrondes.
+**Hoe snel is een wervingsvideo klaar?** Binnen een week. Omdat er geen draaidag nodig is, gaat het snel.
 
 # Wat kost een AI-video?
 URL: https://storiomedia.nl/prijzen-ai-video/
@@ -212,7 +212,7 @@ Beide hebben hun kracht. Dit zijn de belangrijkste verschillen, en zo kies je wa
 Bij een traditionele productie zijn draaidagen, crew, apparatuur, locaties en acteurs de grootste kostenposten. Een AI-video maak je digitaal, waardoor die kosten grotendeels wegvallen. Bij Storio Media kost een AI-video van 30 seconden € 600 en van 1 minuut € 1.000, exclusief btw.
 
 ## Doorlooptijd
-Een AI-video is meestal binnen twee tot vier weken klaar, van briefing tot eindfilm. Bij een traditionele productie komt daar vaak extra planning bij voor draaidagen, locaties en mensen.
+Een AI-video van Storio Media is binnen een week klaar, van briefing tot eindfilm. Bij een traditionele productie komt daar vaak extra planning bij voor draaidagen, locaties en mensen.
 
 ## Mogelijkheden
 Met AI laat je dingen zien die je niet of nauwelijks kunt filmen: andere landen, toekomstscenario's, processen in een fabriek, producten die nog niet bestaan of historische scènes. Ook maak je eenvoudig varianten in meerdere talen en formaten.
@@ -245,7 +245,7 @@ Het lastigste aan AI-video is dat een personage, product of stijl er in elke sc�
 ## De rol van mensen
 AI maakt de beelden, maar het verhaal, de keuzes en de afwerking blijven mensenwerk. Een sterk script, een goede montage en zorgvuldig geluid maken het verschil tussen een AI-demo en een video die je doelgroep raakt.
 
-**Hoe lang duurt een AI-videoproductie?** Gemiddeld twee tot vier weken van briefing tot eindfilm.
+**Hoe lang duurt een AI-videoproductie?** Binnen een week, van briefing tot eindfilm.
 **Moet ik zelf iets aanleveren?** Alleen je doel, doelgroep en eventueel je huisstijl, logo en bestaand materiaal. De rest doen wij.
 
 # AI-video maken: zelf doen of laten maken?
