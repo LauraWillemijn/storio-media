@@ -161,7 +161,7 @@ body.menu-open { overflow: hidden; }
 .reel .media::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(12, 24, 40, 0) 40%, rgba(12, 24, 40, .45)); pointer-events: none; }
 .reel .play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2; flex-direction: column; text-align: center; }
 .reel-tag { position: absolute; left: 22px; bottom: 20px; z-index: 2; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #fff; display: flex; gap: 10px; align-items: center; }
-.reel-tag::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 4px rgba(74, 107, 154, .3); animation: blink 1.6s infinite; }
+.reel-tag::before { content: ""; width: 8px; height: 9px; background: #fff; clip-path: polygon(0 0, 100% 50%, 0 100%); }
 @keyframes blink { 50% { opacity: .35; } }
 
 .js .hero .h1 .line > span { transform: translateY(105%); animation: rise 1.1s var(--ease) forwards; }
@@ -611,7 +611,7 @@ a.family-item:hover { transform: translateY(-3px); }
 
 /* Label 'Ons nieuwste werk' op de videokaart: subtiel glaslabel linksboven */
 .reel-tag { left: 20px; top: 20px; bottom: auto; padding: 8px 14px 8px 12px; border-radius: 100px; background: rgba(12, 24, 40, .38); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); font-size: 13px; font-weight: 600; letter-spacing: .2px; text-transform: none; color: rgba(255, 255, 255, .92); gap: 9px; }
-.reel-tag::before { width: 7px; height: 7px; box-shadow: 0 0 0 3px rgba(46, 158, 96, .3); }
+.reel-tag::before { width: 7px; height: 8px; }
 @media (max-width: 640px) { .reel-tag { left: 12px; top: 12px; font-size: 12px; padding: 6px 11px 6px 9px; } }
 
 /* ── Videokaarten met bumpers ───────────────────────────────────────────── */
@@ -704,7 +704,7 @@ a.family-item:hover { transform: translateY(-3px); }
 /* Hero: prijsbadge */
 .hero-price { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 26px; padding: 10px 18px 10px 14px; border-radius: 100px; background: rgba(255, 255, 255, .78); border: 1px solid rgba(23, 34, 50, .08); box-shadow: 0 10px 30px -14px rgba(16, 25, 38, .25); font-size: 15px; font-weight: 600; color: var(--text); text-decoration: none; transition: transform .35s var(--ease), box-shadow .35s var(--ease); }
 .hero-price strong { font-weight: 900; color: var(--green); }
-.hero-price .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 4px rgba(46, 158, 96, .18); }
+.hero-price .dot { width: 8px; height: 9px; background: var(--green); clip-path: polygon(0 0, 100% 50%, 0 100%); }
 .hero-price .arr { transition: transform .35s var(--ease); }
 .hero-price:hover { transform: translateY(-2px); box-shadow: 0 14px 34px -14px rgba(16, 25, 38, .35); }
 .hero-price:hover .arr { transform: translateX(3px); }
@@ -740,7 +740,7 @@ a.family-item:hover { transform: translateY(-3px); }
 .seo-sec p { font-size: 17px; line-height: 1.75; color: rgba(16, 25, 38, .78); margin-bottom: 14px; }
 .seo-list { list-style: none; display: grid; gap: 10px; margin-top: 6px; }
 .seo-list li { position: relative; padding-left: 30px; font-size: 17px; line-height: 1.6; }
-.seo-list li::before { content: ""; position: absolute; left: 4px; top: 9px; width: 10px; height: 10px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 4px rgba(46, 158, 96, .15); }
+.seo-list li::before { content: ""; position: absolute; left: 5px; top: 8px; width: 9px; height: 10px; background: var(--green); clip-path: polygon(0 0, 100% 50%, 0 100%); }
 .seo-steps { list-style: none; display: grid; gap: 18px; }
 .seo-steps li { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: start; }
 .seo-step-n { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--navy); color: #fff; font-weight: 700; font-size: 15px; }
