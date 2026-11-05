@@ -150,7 +150,7 @@ body.menu-open { overflow: hidden; }
 .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: clamp(120px, 22vw, 300px); background: var(--white); }
 .hero-top { max-width: 1200px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
 .pill { display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 12px; border-radius: 100px; background: rgba(255, 255, 255, .6); border: 1px solid rgba(255, 255, 255, .9); font-size: 13px; font-weight: 600; margin-bottom: 28px; }
-.pill i { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 4px rgba(74, 107, 154, .18); }
+.pill i { width: 8px; height:9.2px;  background: var(--blue); clip-path: polygon(0 0, 100% 50%, 0 100%); }
 .hero .h1 { margin-bottom: 24px; }
 .hero .h1 .line { display: block; overflow: hidden; padding-bottom: .06em; }
 .hero .h1 .line > span { display: inline-block; }
@@ -518,7 +518,7 @@ a.family-item:hover { transform: translateY(-3px); }
 
 /* ── Merkgroen als accent (klein, nooit als vlak) ───────────────────────── */
 .label, .case-client, .chapter .num, .flow .hl small { color: var(--green); }
-.pill i { background: var(--green); box-shadow: 0 0 0 4px rgba(46, 158, 96, .18); }
+.pill i { background: var(--green); }
 .reel-tag::before { background: var(--green); }
 .btn-primary:hover { background: var(--green); box-shadow: 0 12px 28px -10px rgba(46, 158, 96, .55); }
 .link .arr, .btn-ghost .arr { color: var(--green); }
