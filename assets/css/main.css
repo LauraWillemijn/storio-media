@@ -88,7 +88,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 /* ── Logo ───────────────────────────────────────────────────────────────── */
 @keyframes logoWordIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-@keyframes logoBadgeIn { from { opacity: 0; letter-spacing: 0; } to { opacity: 1; letter-spacing: 7.4px; } }
+/* translateX houdt MEDIA gecentreerd terwijl de letterafstand groeit (startpositie staat vast, zie logo() in build.py) */
+@keyframes logoBadgeIn { from { opacity: 0; letter-spacing: 0; transform: translateX(14.8px); } to { opacity: 1; letter-spacing: 7.4px; transform: none; } }
 .logo { width: 150px; height: auto; color: var(--text); }
 .logo-badge { fill: var(--green); }
 .logo-word { transform-box: fill-box; animation: logoWordIn .6s var(--ease) both; }
