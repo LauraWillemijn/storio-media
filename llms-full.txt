@@ -1,6 +1,6 @@
 # Storio Media
 
-> Storio Media is een Nederlands creatief videoproductiebedrijf dat hoogwaardige AI-video's maakt voor bedrijven, merken en organisaties. AI is de productiemethode: van concept en script tot AI-generatie, voice-over, sound design en montage — zonder traditionele draaidagen, crews of locatiebeperkingen. Elke video is binnen een week klaar, van briefing tot eindfilm. Naast losse video's is Storio Media de vaste videopartner van organisaties die elke maand nieuwe video's voor LinkedIn en Instagram willen, tegen een vaste maandprijs.
+> Storio Media is een Nederlands creatief videoproductiebedrijf dat hoogwaardige AI-video's maakt voor bedrijven, merken en organisaties. AI is de productiemethode: van concept en script tot AI-generatie, voice-over, sound design en montage — zonder traditionele draaidagen, crews of locatiebeperkingen. Elke video is binnen een week klaar, van briefing tot eindfilm. Naast losse video's is Storio Media de vaste videopartner van organisaties die elke maand nieuwe video's voor LinkedIn en Instagram willen.
 
 Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), opgericht door Hielke Boersma (radio-dj bij SLAM!, presentator en voice-over; https://hielkeboersma.com). Contact: info@storiomedia.nl.
 
@@ -14,7 +14,7 @@ Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), 
 ## Prijzen
 - AI-video van 30 seconden: € 600 excl. btw
 - AI-video van 1 minuut: € 1.000 excl. btw
-- Inbegrepen: Concept & script, AI-beelden in één consistente stijl, Voice-over, muziek & sound design, Montage & oplevering, Binnen een week klaar. Elke maand nieuwe video's nodig? Als vaste videopartner werken we met een vaste maandprijs. Langere video of meerdere versies? Je krijgt een voorstel op maat.
+- Inbegrepen: Concept & script, AI-beelden in één consistente stijl, Voice-over, muziek & sound design, Montage & oplevering, Binnen een week klaar. Elke maand nieuwe video's nodig? Als vaste videopartner maken we een voorstel op maat. Langere video of meerdere versies? Ook dan krijg je een voorstel op maat.
 
 ## Cases
 - VOLTA (Explainer, 0:30): Een explainer van 30 seconden voor VOLTA, een thuisbatterij die je zonnestroom bewaart voor 's avonds. In één doorlopende 3D-doorsnede van een Nederlands rijtjeshuis zie je de dag overgaan in de avond: overdag vullen de zonnepanelen de batterij, 's avonds gaat die stroom naar de keuken, de tv en de auto. Dag en nacht zonnestroom. Video: https://youtu.be/qscBy7h0au4
@@ -26,7 +26,7 @@ Storio Media is een zustermerk van Storio Podcasts (https://storiopodcasts.nl), 
 - Wat is een AI-video? Een AI-video is een video waarvan de beelden, en vaak ook de stem en muziek, met generatieve AI worden gemaakt. Bij Storio Media combineren we die techniek met vakmanschap: we schrijven het concept en script, bepalen de beeldstijl, maken de scènes en monteren alles tot een professionele bedrijfsfilm, commercial of explainer.
 - Wat kost een AI-video laten maken? Een video van 30 seconden kost € 600 en een video van 1 minuut € 1.000 (excl. btw). Daarin zit alles: concept en script, de AI-beelden, voice-over, muziek en montage. Wil je een langere video of meerdere versies? Dan krijg je een voorstel op maat.
 - Hoe lang duurt het om een AI-video te maken? Binnen een week, van briefing tot eindfilm. Zo weet je vooraf precies wanneer je video klaar is.
-- Kunnen jullie onze vaste videopartner zijn? Ja. Veel organisaties willen niet één video, maar elke maand nieuwe content voor LinkedIn en Instagram. We leggen dan één keer je huisstijl, toon en beeldstijl vast en maken daarna in een vast ritme nieuwe video's: over nieuws, events, vacatures, cases of expertise. Je betaalt een vaste prijs per maand en hebt één aanspreekpunt. Omdat de basis al staat, schakelen we snel als er iets actueels is.
+- Kunnen jullie onze vaste videopartner zijn? Ja. Veel organisaties willen niet één video, maar elke maand nieuwe content voor LinkedIn en Instagram. We leggen dan één keer je huisstijl, toon en beeldstijl vast en maken daarna in een vast ritme nieuwe video's: over nieuws, events, vacatures, cases of expertise. Je hebt één aanspreekpunt. Omdat de basis al staat, schakelen we snel als er iets actueels is.
 - Kunnen bestaande beelden worden gecombineerd met AI? Ja. Bestaand videomateriaal, productfoto's, je huisstijl, logo's en screenshots van software kunnen we verwerken in de productie. Denk aan echte interviews aangevuld met AI-scènes, of een bestaand product dat in een nieuwe omgeving wordt geplaatst. Zo blijft de video herkenbaar van jou.
 - Kunnen video's in meerdere talen worden gemaakt? Ja, en dat is een van de grote voordelen van AI-videoproductie. Van één productie maken we eenvoudig versies in het Engels, Duits, Frans of andere talen, inclusief vertaalde voice-over, ondertiteling en aangepaste teksten in beeld. Ideaal voor internationale organisaties die één boodschap in meerdere markten willen brengen.
 - Is AI-video geschikt voor mijn bedrijf? AI-video werkt vooral goed als je iets wilt laten zien dat lastig, duur of onmogelijk te filmen is: internationale locaties, toekomstscenario's, complexe processen of producten die nog niet af zijn. Ook als je regelmatig nieuwe videocontent nodig hebt, is het interessant. Voor een eerlijk portret van je team of een klantinterview is een camera soms juist beter. In een kennismaking vertellen we je graag wat bij jouw idee past.
@@ -136,7 +136,7 @@ Op social beslist de kijker binnen een seconde of hij blijft kijken. Daarom bouw
 Voor merken, retailers, horeca, makers en B2B-bedrijven die regelmatig nieuwe content nodig hebben, zonder elke keer een fotograaf of filmploeg te boeken.
 
 **Krijg ik de video's met ondertiteling?** Ja. Alle social video's leveren we met ondertiteling, want veel mensen kijken zonder geluid.
-**Kunnen jullie een vaste reeks video's maken?** Ja. Als vaste videopartner maken we elke maand nieuwe video's voor je kanalen, tegen een vaste maandprijs. Lees meer over een vaste samenwerking.
+**Kunnen jullie een vaste reeks video's maken?** Ja. Als vaste videopartner maken we elke maand nieuwe video's voor je kanalen. Lees meer over een vaste samenwerking.
 
 # Een vaste videopartner voor LinkedIn en Instagram
 URL: https://storiomedia.nl/vaste-videopartner/
@@ -160,7 +160,7 @@ Over alles wat je organisatie laat zien: nieuws en mijlpalen, events en webinars
 Voor organisaties die structureel zichtbaar willen zijn, maar geen eigen videoteam hebben. Denk aan advocatenkantoren, adviesbureaus, zorg- en onderwijsinstellingen, tech- en B2B-bedrijven en marketingteams die meer content nodig hebben dan ze zelf kunnen maken.
 
 ## Wat kost het?
-Je betaalt een vaste prijs per maand, afhankelijk van het aantal en de lengte van de video's. Zo weet je vooraf precies waar je aan toe bent. Een losse video van 30 seconden kost € 600 en van 1 minuut € 1.000 (excl. btw). Voor een vaste samenwerking maken we een voorstel op maat.
+Dat hangt af van het aantal video's, de lengte en het ritme dat bij je past. Na een kennismaking krijg je een voorstel op maat, zodat je vooraf precies weet waar je aan toe bent.
 
 **Hoeveel video's per maand zijn mogelijk?** Dat stemmen we af op je kanalen en ambities. Van een paar video's per maand tot een wekelijks ritme: we maken een voorstel dat past bij je contentkalender.
 **Hoe snel kunnen jullie een video maken als er iets actueels is?** Omdat je huisstijl en beeldstijl al vastliggen, kunnen we snel schakelen. Een losse video is altijd binnen een week klaar; binnen een vaste samenwerking plannen we actuele video's zo snel mogelijk in.
