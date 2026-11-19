@@ -795,3 +795,11 @@ a.family-item:hover { transform: translateY(-3px); }
 .case-facts li { padding: 0; }
 .case-facts li::before { display: none; }
 .case-facts span { display: block; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--green); }
+
+/* Vaste videopartner (homepage, 2026-11-19) */
+.split--partner { align-items: start; }
+.split--partner .head p { max-width: 520px; }
+.partner-btns { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px; margin-top: 8px; }
+.link-arrow { font-weight: 700; font-size: 16px; color: var(--navy); text-decoration: none; border-bottom: 1.5px solid var(--green); padding-bottom: 2px; }
+.link-arrow:hover { color: var(--green); }
+@media (max-width: 900px) { .split--partner { grid-template-columns: 1fr; } }
